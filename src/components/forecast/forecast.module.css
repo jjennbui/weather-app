@@ -1,0 +1,53 @@
+.container {
+    border-radius: 20px;
+    box-shadow: 5px 1px 10px 0px rgb(163, 176, 188);
+    padding: 50px;
+   max-width: 230px;
+    margin: 45px;
+    background-color: var(--blue);
+    overflow: hidden;
+    align-items: center;
+    height: 340px;
+}
+
+.temp{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.info{
+    margin: 20px;
+    text-align: center;
+}
+
+.description{
+    font-size: 20px;
+    font-weight:600;
+}
+
+.weatherCondition{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1220px) {
+    .container{
+        max-width: 530px;
+        padding: 30px;
+    }
+
+    .temp{
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@media (max-width: 520px) {
+    .container{
+        max-width: 230px;
+        padding: 30px;
+    }
+}
